@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <Router basename="/FarhanTeaches">
+    <Router>
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow bg-white">
