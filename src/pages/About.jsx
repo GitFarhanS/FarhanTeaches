@@ -171,6 +171,16 @@ export default function About() {
 
         <div className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-4">Check out my portfolio website!</h2>
+          <div className="flex justify-center mb-4">
+            <a
+              href="https://farhanshaikh.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary inline-block text-primary-700 font-semibold border-primary-700 border hover:bg-primary-50 transition"
+            >
+              Visit farhanshaikh.uk
+            </a>
+          </div>
           <div className="flex justify-center">
             <iframe
               src="https://farhanshaikh.uk" // <-- replace with your desired URL
