@@ -1,2 +1,0 @@
-# FarhanTeaches
-My teaching website
