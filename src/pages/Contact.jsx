@@ -33,6 +33,13 @@ export default function Contact() {
             subject: '',
             message: '',
           });
+          // Google Analytics event
+          if (window.gtag) {
+            window.gtag('event', 'contact_form_submit', {
+              event_category: 'Contact',
+              event_label: 'Contact Form Submitted'
+            });
+          }
         },
         (error) => {
           setError('Failed to send message. Please try again.');
